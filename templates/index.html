@@ -30,10 +30,10 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="favicon.png' %}">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png' %}">
 
 </head>
 
@@ -144,7 +144,7 @@
         <div class="video-section-1">
             <div class="just_pattern"></div>
             <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"
-                poster="images/1.jpg">
+                poster="{% static 'images/1.jpg' %}">
                 <source src="videos/video.webm" type="video/webm">
                 <source src="videos/video.mp4" type="video/mp4">
                 <source src="videos/video.ogg" type="video/ogg">
@@ -186,7 +186,7 @@
     <div class="container">
         <div class="four columns" data-scrollreveal="enter left and move 150px over 1s">
             <div class="team-wrap">
-                <img src="images/team1.jpg" alt="" />
+                <img src="{% static 'images/team1.jpg' %}" alt="" />
                 <h5>ДЖЕЙМС БИН</h5>
                 <p>Креативный директор</p>
                 <div class="team-line"></div>
@@ -215,7 +215,7 @@
 			</div>
 			<div class="four columns" data-scrollreveal="enter left and move 150px over 1s">
 				<div class="team-wrap">
-					<img src="images/team2.jpg" alt="" />
+					<img src="{% static 'images/team2.jpg' %}" alt="" />
 					<h5>ИЗАБЕЛЛА МОРО</h5>
 					<p>Директор компании</p>
 					<div class="team-line"></div>
@@ -243,7 +243,7 @@
 			</div>
 			<div class="four columns" data-scrollreveal="enter right and move 150px over 1s">
 				<div class="team-wrap">
-					<img src="images/team3.jpg" alt="" />
+					<img src="{% static 'images/team3.jpg' %}" alt="" />
 					<h5>ДЭВИД ИВ</h5>
 					<p>Главный управляющий</p>
 					<div class="team-line"></div>
@@ -271,7 +271,7 @@
 			</div>
 			<div class="four columns" data-scrollreveal="enter right and move 150px over 1s">
 				<div class="team-wrap">
-					<img src="images/team4.jpg" alt="" />
+					<img src="{% static 'images/team4.jpg' %}" alt="" />
 					<h5>ДЖЕЙМС МОРО</h5>
 					<p>Менеджер по персоналу</p>
 					<div class="team-line"></div>
@@ -313,8 +313,8 @@
 							изображения правой стороны.</p>
 					</div>
 					<div class="tiltview col">
-						<a href="#"><img src="images/1_screen.jpg" alt="" /></a>
-						<a href="#"><img src="images/2_screen.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/1_screen.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/2_screen.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 				<li>
@@ -325,8 +325,8 @@
 							and <code>data-effect-out</code> for every slide. </p>
 					</div>
 					<div class="tiltview row">
-						<a href="#"><img src="images/3_mobile.jpg" alt="" /></a>
-						<a href="#"><img src="images/4_mobile.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/3_mobile.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/4_mobile.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 				<li>
@@ -336,8 +336,8 @@
 							наклон раздела, содержащего два скриншота.</p>
 					</div>
 					<div class="tiltview col">
-						<a href="#"><img src="images/5_screen.jpg" alt="" /></a>
-						<a href="#"><img src="images/6_screen.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/5_screen.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/6_screen.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 				<li>
@@ -348,8 +348,8 @@
 							элементы перекрывают друг друга при их перемещении внутрь или наружу.</p>
 					</div>
 					<div class="tiltview row">
-						<a href="#"><img src="images/1_mobile.jpg" alt="" /></a>
-						<a href="#"><img src="images/2_mobile.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/1_mobile.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/2_mobile.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 				<li>
@@ -359,8 +359,8 @@
 							только украшение. В центре внимания будет описание, которое займет всю ширину.</p>
 					</div>
 					<div class="tiltview col">
-						<a href="#"><img src="images/3_screen.jpg" alt="" /></a>
-						<a href="#"><img src="images/4_screen.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/3_screen.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/4_screen.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 				<li>
@@ -371,8 +371,8 @@
 							элемент, он будет частью кликабельной зоны.</p>
 					</div>
 					<div class="tiltview row">
-						<a href="#"><img src="images/5_mobile.jpg" alt="" /></a>
-						<a href="#"><img src="images/6_mobile.jpg" alt="" /></a>
+						<a href="#"><img src="{% static 'images/5_mobile.jpg' %}" alt="" /></a>
+						<a href="#"><img src="{% static 'images/6_mobile.jpg' %}" alt="" /></a>
 					</div>
 				</li>
 			</ol>
@@ -420,81 +420,81 @@
 		<ul class="portfolio-wrap">
 			<li class="portfolio-box photography web-design">
 				<a class="expander" href="project2.html" title="">
-					<img src="images/gallery/1.jpg" alt="" />
+					<img src="{% static 'images/gallery/1.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Все время</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/1.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/1.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box illustration1 motion-graphics">
 				<a class="expander" href="project1.html" title="">
-					<img src="images/gallery/2.jpg" alt="" />
+					<img src="{% static 'images/gallery/2.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Беркут</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/2.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/2.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box motion-graphics photography">
 				<a class="expander" href="project3.html" title="">
-					<img src="images/gallery/3.jpg" alt="" />
+					<img src="{% static 'images/gallery/3.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Все время</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/3.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/3.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box web-design illustration1">
 				<a class="expander" href="project4.html" title="">
-					<img src="images/gallery/4.jpg" alt="" />
+					<img src="{% static 'images/gallery/4.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Фиксированный магазин</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/4.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/4.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box photography web-design">
 				<a class="expander" href="project2.html" title="">
-					<img src="images/gallery/5.jpg" alt="" />
+					<img src="{% static 'images/gallery/5.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Ла Катерия</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/5.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/5.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box illustration1 motion-graphics">
 				<a class="expander" href="project1.html" title="">
-					<img src="images/gallery/6.jpg" alt="" />
+					<img src="{% static 'images/gallery/6.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Набор «5-летие»</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/6.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/6.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box motion-graphics photography">
 				<a class="expander" href="project3.html" title="">
-					<img src="images/gallery/7.jpg" alt="" />
+					<img src="{% static 'images/gallery/7.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Ла Катерия</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/7.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/7.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
 			<li class="portfolio-box web-design illustration1">
 				<a class="expander" href="project4.html" title="">
-					<img src="images/gallery/8.jpg" alt="" />
+					<img src="{% static 'images/gallery/8.jpg' %}" alt="" />
 					<div class="mask"></div>
 					<h4>Дэн Финк</h4>
 				</a>
-				<a class="fancybox-effects-d" href="images/gallery/8.jpg" title="">
+				<a class="fancybox-effects-d" href="{% static 'images/gallery/8.jpg' %}" title="">
 					<div class="fancybox-button">&#xf106;</div>
 				</a>
 			</li>
@@ -542,7 +542,6 @@
 			</div>
 		</div>
 	</div>
-
 
 
 
@@ -657,22 +656,22 @@
 		<div class="container">
 			<div class="sixteen columns">
 				<div class="logos-wrap">
-					<img src="images/logos/1.png" alt="" />
+					<img src="{% static 'images/logos/1.png' %}" alt="" />
 				</div>
 				<div class="logos-wrap">
-					<img src="images/logos/2.png" alt="" />
+					<img src="{% static 'images/logos/2.png' %}" alt="" />
 				</div>
 				<div class="logos-wrap">
-					<img src="images/logos/3.png" alt="" />
+					<img src="{% static 'images/logos/3.png' %}" alt="" />
 				</div>
 				<div class="logos-wrap">
-					<img src="images/logos/4.png" alt="" />
+					<img src="{% static 'images/logos/4.png' %}" alt="" />
 				</div>
 				<div class="logos-wrap">
-					<img src="images/logos/5.png" alt="" />
+					<img src="{% static 'images/logos/5.png' %}" alt="" />
 				</div>
 				<div class="logos-wrap">
-					<img src="images/logos/2.png" alt="" />
+					<img src="{% static 'images/logos/2.png' %}" alt="" />
 				</div>
 			</div>
 		</div>
@@ -685,7 +684,7 @@
 		<div class="container z-index">
 			<div class="one-third column">
 				<div class="blog-post">
-					<img src="images/blog/1.jpg" alt="" />
+					<img src="{% static 'images/blog/1.jpg' %}" alt="" />
 					<h5>Сообщение в блоге</h5>
 					<p>БИЛАЛА КАК ТЫ ТАМ</p>
 					<p><span>26.2.2014.</span><span> 3 comments</span></p>
@@ -693,7 +692,7 @@
 			</div>
 			<div class="one-third column">
 				<div class="blog-post">
-					<img src="images/blog/2.jpg" alt="" />
+					<img src="{% static 'images/blog/2.jpg' %}" alt="" />
 					<h5>Сообщение в блоге</h5>
 					<p>НУ ебать кнч я заебалься с этим</p>
 					<p><span>17.2.2014.</span><span> 7 comments</span></p>
@@ -701,7 +700,7 @@
 			</div>
 			<div class="one-third column">
 				<div class="blog-post">
-					<img src="images/blog/3.jpg" alt="" />
+					<img src="{% static 'images/blog/3.jpg' %}" alt="" />
 					<h5>Сообщение в блоге</h5>
 					<p>хз чё написать</p>
 					<p><span>12.2.2014.</span><span> 4 comments</span></p>
