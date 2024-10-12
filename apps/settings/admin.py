@@ -1,5 +1,6 @@
 from django.contrib import admin
-from apps.settings.models import BaseSettings
-# Register your models here.
+from .models import Basesettings, Employees, Blog
 
-admin.site.register(BaseSettings)
+admin.site.register(Basesettings)
+admin.site.register(Employees)
+admin.site.register(Blog)
